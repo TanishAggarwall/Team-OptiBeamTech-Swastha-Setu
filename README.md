@@ -125,5 +125,4 @@ We believe in technology that serves humanity. **Join us, not just for winning, 
 ---
 **Team: OptiBeamTech**
 
-## 📄 License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
