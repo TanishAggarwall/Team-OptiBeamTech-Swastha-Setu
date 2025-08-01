@@ -1,0 +1,60 @@
+name: swastha_setu
+description: An AI-powered healthcare companion for rural India, providing diagnosis, multilingual reports, and proactive care plans.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  image_picker: ^1.0.4
+  path_provider: ^2.1.1
+  image: ^4.0.17
+  http: ^1.1.0
+  
+  # UI Enhancement Dependencies
+  google_fonts: ^6.2.1
+  flutter_spinkit: ^5.2.0
+  lottie: ^3.1.2
+  material_design_icons_flutter: ^7.0.7296
+  
+  # AI & PDF Dependencies
+  #google_generative_ai: ^0.2.2
+  pdf: ^3.10.4
+  open_file: ^3.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  
+  # Assets
+  assets:
+    - assets/
+    - assets/fonts/
+    - assets/animations/
+    - assets/sounds/
+  
+  # Fonts for Multilingual Support (SwasthaSetu)
+  fonts:
+    - family: NotoSans
+      fonts:
+        - asset: assets/fonts/NotoSans-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/NotoSans-Bold.ttf
+          weight: 700
+          style: normal
+    - family: NotoSansDevanagari
+      fonts:
+        - asset: assets/fonts/NotoSansDevanagari-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/NotoSansDevanagari-Bold.ttf
+          weight: 700
+          style: normal
